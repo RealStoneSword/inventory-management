@@ -1,7 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
+void addRemove();
+void editItemData();
+void editItemStock();
 
 int main() {
+
     /* op1 is option 1 */
     int op1 = 0;
     printf("\n##### Inventory System #####");
