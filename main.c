@@ -42,7 +42,15 @@ int main() {
 }
 
 void addRemove() {
+    char c1[1];
+    printf("\nWould you like to (A)dd or (R)emove items?\n");
+    scanf("%s", c1);
 
+    switch(c1) {
+        case 'a' :
+        printf("What is the items name?");
+        break;
+    }
 }
 
 void editItemData() {
